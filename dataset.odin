@@ -7,7 +7,7 @@ import "core:strconv"
 
 Dataset :: struct {
 	x:             [dynamic]f64,
-	y:             [dynamic]f64,
+	y:             [dynamic]f64, //TODO consider Enum?
 	class_ids:     [dynamic]int,
 	feature_count: int,
 	sample_count:  int,
